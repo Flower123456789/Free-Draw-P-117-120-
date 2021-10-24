@@ -1,0 +1,43 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    color: black;
+    background-color: white;
+}
+
+#show_sketch{
+    float: right;
+}
+
+.score{
+    font-size: 30px;
+  margin-left: 20;
+
+}
+.timer{
+    font-size: 30px;
+    float: right;
+}
+
+canvas{
+
+    border :5px solid white;
+    border-radius: 20px;
+    animation-name: color_changer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+
+@keyframes color_changer{
+from{box-shadow: 1px 1px 50px purple;}
+to{box-shadow: 1px 1px 50px pink; }
+}
+
+p{
+   padding-top: 10px;
+   font-size: 30px;
+}
