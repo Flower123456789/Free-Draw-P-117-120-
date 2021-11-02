@@ -2,6 +2,8 @@ quick_draw_data_set=["aircraft carrier","airplane","alarm clock","ambulance","an
 
 random_number = Math.floor(Math.random()* quick_draw_data_set.length) + 1;
 console.log(quick_draw_data_set[random_number]);
+
+
 function setup(){
     canvas = createCanvas(280,280);
     canvas.center();
